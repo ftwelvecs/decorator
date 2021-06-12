@@ -19,7 +19,7 @@ public class App {
     }
 
     public static void readWithInputStream() throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\tomi\\Desktop\\input.txt");
+        FileInputStream fis = new FileInputStream("input.txt");
         BufferedInputStream bis = new BufferedInputStream(fis);
 
         int chr;
